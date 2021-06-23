@@ -9,7 +9,7 @@ from pymongo.errors import ServerSelectionTimeoutError
 from HexzyBot.conf import get_int_key, get_str_key
 
 
-MONGO_PORT = get_int_key("27017")
+MONGO_PORT = get_int_key("27019")
 MONGO_DB_URI = get_str_key("MONGO_DB_URI")
 MONGO_DB = "DaisyX"
 
