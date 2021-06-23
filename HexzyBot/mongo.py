@@ -1,6 +1,7 @@
 import asyncio
 import sys
 
+import log
 from motor import motor_asyncio
 from HexzyBot import MONGO_DB_URI 
 from pymongo import MongoClient
